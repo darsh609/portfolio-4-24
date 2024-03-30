@@ -132,7 +132,7 @@ a{
     flex-direction: column;
     /* justify-content: center;
      */
-     gap:2.5rem;
+     gap:1rem;
 }
 .faded{
     position: absolute;
@@ -220,8 +220,8 @@ color:white;
     filter: grayscale(1);
     transition: all 1s;
     animation: scalekro 5s linear infinite ;
-    width: 520px;
-    height:750px;
+    width: 420px;
+    height:600px;
 
 }
 .myimage img{
@@ -325,10 +325,10 @@ transform: scale(1) ;
 @media (max-width:1000px){
 
 
-    .myimage img{
-        width:270px;
+    /* .myimage img{
+        width:270px
 
-    }
+    } */
     .myimage{
         margin:0 auto;
        
@@ -714,7 +714,7 @@ transform: scale(1) ;
   flex-wrap:wrap;
   width:50%;
   position:relative;
-  gap:2rem;
+  gap:2.4rem;
   justify-content: center;
 }
 
@@ -746,7 +746,7 @@ transform: scale(1) ;
 }
 
 .skills-logo{
-  width:90px;
+  width:110px;
   transition:all 0.5s;
 }
 
